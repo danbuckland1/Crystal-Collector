@@ -2,6 +2,7 @@
     width: auto;
     height: auto;
     float: left;
+    background: url("../images/lightblue.jpg");
 }
 
 .crystals {
@@ -35,6 +36,12 @@
     padding: 60px;
     color: white;
 }
+
+.gem1, .gem2, .gem3, .gem4 {
+    background: white;
+   
+}
+
 
 
 
