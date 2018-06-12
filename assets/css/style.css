@@ -1,11 +1,42 @@
+.container{
+    width: auto;
+    height: auto;
+    float: left;
+}
+
 .crystals {
-    background: orange;
+    background: darkorange;
+    color: white;
+    font-family: comic 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .rules {
     background: peachpuff;
+    color: green;
 }
 
 .random {
-    background: green;
+    background: seagreen;
+    padding: 60px;
 }
+
+.w-l {
+    background: aqua;
+    padding: 20px;
+}
+
+.total{
+    background: darkgreen;
+    color: white;
+}
+
+.score {
+    background: darkgreen;
+    padding: 60px;
+    color: white;
+}
+
+
+
+
+
