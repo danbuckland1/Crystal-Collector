@@ -1,39 +1,25 @@
-//Var for wins
-var wins = 0;
-//Var for losses
-var losses = 0;
-//Var total score
-var totalScore = 0;
-//Var current score
-var currentScore = 0;
-//Var target score
-var targetScore = [];
-//Var restart game
-var restartGame
-//Random number
-var randomNumber = [];
+
+var randomNumber
+//Random number is diplayed at start of game that is between 18-120
+var randomNumber = Math.floor(Math.random() * 120 + 1);
+document.getElementById('random').innerHTML;
 
 
+console.log(randomNumber);
 
 
+//crystals have an assigned random number between 1-12
 
-//The player will be shown a random number at the start of the game.
+//user clicks crystal
 
-//When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
+//That number is then added to score
 
-//Your game will hide this amount until the player clicks a crystal.
+//When user's are clicks equal to the random number, win goes up one point with text alert on page
 
-//When they do click one, update the player's score counter.
-
-//The player wins if their total score matches the random number from the beginning of the game.
-
-//The player loses if their score goes above the random number.
-
-//The game restarts whenever the player wins or loses.
-
-//When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
-
-//The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+//If clicks go over random number, loss goes up with text alert on page.
 
 
+//After each win or loss, a new random number is selected and new random value is given to each crystal
 
+
+//Score resets.
